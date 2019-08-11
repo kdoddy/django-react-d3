@@ -2,14 +2,14 @@
 
 ### backend:
 
-cd django-todo-react
-pip install pipenv
-pipenv shell
-cd backend
-python manage.py runserver
+cd django-todo-react<br>
+pip install pipenv<br>
+pipenv shell<br>
+cd backend<br>
+python manage.py runserver<br>
 
 ### frontend:
 
-cd django-todo-react/frontend
-npm install
-yarn start or npm start
+cd django-todo-react/frontend<br>
+npm install<br>
+yarn start or npm start<br>
