@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Modal from "./components/Modal";
+import BarChart from './components/BarChart';
 import axios from "axios";
 
 class App extends Component {
@@ -137,6 +138,17 @@ class App extends Component {
             onSave={this.handleSubmit}
           />
         ) : null}
+        <h1 className="text-white text-uppercase text-center my-4">d3 app</h1>
+        <h3 className="text-white text-center my-4">Bar Chart</h3>
+        <div className="row ">
+          <div className="col-md-6 col-sm-10 mx-auto p-0">
+            <div className="card p-3">
+              <div className="">
+                <BarChart />
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     );
   }
